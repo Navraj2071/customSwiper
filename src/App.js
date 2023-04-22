@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Normalscreen from "./normalscreen";
+import Scrollscreen from "./scrollscreen";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Normalscreen color="grey" text="Screen1" />
+      <Normalscreen color="black" text="Screen2" />
+      <Normalscreen color="grey" text="Screen3" />
+      <Scrollscreen />
+      <Normalscreen color="black" text="Screen4" />
+      <Normalscreen color="grey" text="Screen5" />
+    </>
   );
 }
 

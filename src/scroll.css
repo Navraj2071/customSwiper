@@ -1,0 +1,21 @@
+@keyframes scrollUp {
+  from {
+    height: 0px;
+    bottom: 0px;
+  }
+  to {
+    height: 100%;
+    bottom: 0px;
+  }
+}
+
+@keyframes scrollAway {
+  from {
+    height: 100%;
+    top: 0px;
+  }
+  to {
+    height: 0px;
+    top: 0px;
+  }
+}
